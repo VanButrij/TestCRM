@@ -1,0 +1,151 @@
+.gridWrapper {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 20fr;
+    gap: 1px;
+    overflow-x: hidden;
+}
+.headWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 1000px;
+    background-color: grey;
+    height: 4vh;
+    min-height: 20px;
+}
+
+.headWrapper div {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.adressHead {
+    width: 30vh;
+}
+
+.userWrapper {
+    width: 100%;
+    min-width: 1000px;
+    height: 12vh;
+    min-height: 50px;
+    display: flex;
+    padding-left: 3vw;
+    align-items: center;
+    border: 1px solid black;
+    border-left: none;
+
+
+}
+
+.flexWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.infoWrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+
+}
+
+#inner {
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    border-left: none;
+    background-color: cadetblue;
+}
+
+.preview {
+    min-width: 6%;
+}
+.preview img{
+    width: 5vh;
+}
+.name {
+    min-width: 9%;
+    display: flex;
+    justify-content: center;
+}
+
+.age {
+    min-width: 9%;
+    display: flex;
+    justify-content: center;
+}
+
+.surname {
+    min-width: 9%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.birthday {
+    min-width: 11%;
+}
+
+.position {
+    min-width: 12%;
+    padding-left: 2.5%;
+    justify-items: center;
+}
+
+ .remoteWrapper {
+     padding-left: 5%;
+     min-width: 3%;
+ }
+
+ .adress {
+     padding-left: 50px;
+     max-width: 20%;
+
+ }
+.color {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+.remote input {
+    max-width: 2vw;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .userWrapper{
+        padding-left: 30px;
+    }
+    .name {
+        min-width: 8%;
+    }
+    .surname  {
+        padding-right: 4%;
+    }
+
+    .birthday {
+        min-width: 12%;
+    }
+
+    .position {
+        padding-left: 1.5%;
+    }
+    .remote {
+        padding-left: 6%;
+    }
+
+    .adress {
+
+    }
+}
